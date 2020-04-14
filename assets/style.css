@@ -1,0 +1,56 @@
+body{
+    background-color: aliceblue;
+}
+.header{
+    width: 99%;
+    padding-bottom: 0px;
+    /* background-color:rgb(46, 39, 39); */
+    border-bottom: 2px solid rgb(46, 39, 39);
+    margin-bottom:10px;
+    margin-right: 0px;
+}
+.header h1{
+    margin-bottom:0px;
+}
+.players-name-input{
+    width:98%;
+    height:50px;
+    padding:30px 0px 5px 10px;   
+    color: #eee; 
+    background-color:rgb(46, 39, 39);
+}
+
+.game-board{
+    width:550px;
+    height: 550px;
+
+    border: 1px solid black;
+}
+.game-board table{
+    width:100%;
+    height: 100%;
+
+}
+.box{
+width:33%;
+height: 33%;
+border: 1px solid black;
+}
+footer{
+    width:99%;
+    height:50px;
+    padding-top: 10px;
+    color: #eee; 
+    background-color:rgb(46, 39, 39);
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color:#eee;
+    font-size: 18px;
+}
+footer a:visited{
+    text-decoration: none;
+    color:#eee;
+   
+}
