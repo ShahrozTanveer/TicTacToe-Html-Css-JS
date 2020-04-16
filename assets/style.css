@@ -1,5 +1,7 @@
 body{
     background-color: aliceblue;
+    
+    margin-bottom:50px;
 }
 .header{
     width: 99%;
@@ -18,11 +20,21 @@ body{
     padding:30px 0px 5px 10px;   
     color: #eee; 
     background-color:rgb(46, 39, 39);
+    margin-bottom: 10px;
 }
-
-.game-board{
-    width:550px;
-    height: 550px;
+#turns{
+    width:98%;
+    height:40px;
+    padding: 1px 0px 30px 10px;   
+    color: #eee; 
+    background-color:rgb(46, 39, 39);
+    margin-bottom: 10px;
+    display: none;
+}
+#game-body{
+    display: none;
+    width:350px;
+    height: 350px;
 
     border: 1px solid black;
 }
@@ -37,12 +49,17 @@ height: 33%;
 border: 1px solid black;
 }
 footer{
-    width:99%;
-    height:50px;
-    padding-top: 10px;
-    color: #eee; 
-    background-color:rgb(46, 39, 39);
-    text-align: center;
+    position: fixed;
+    height: 50px;
+   text-align: center;
+   padding-top: 10px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    
+    background-color:rgb(46, 39, 39);;
+   
 }
 footer a{
     text-decoration: none;
